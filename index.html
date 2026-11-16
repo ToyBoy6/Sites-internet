@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Ma page</title>
+  <style>.carte { color: navy; }</style></head>
+  <body>
+    <h1>Bonjour</h1>
+    <img src="photo.jpg">
+    <a href="https://unrivaled-lark-hatchet.ngrok-free.dev/pronote/">Ouvrir pronote de Thibaut</a>
+    <h1>Rebonjour</h1>
+    <img src="photo.jpg">
+    <a href="https://uncouth-peroxide-sublet.ngrok-free.dev/pronote/">Ouvrir pronote de Tim</a>
+    <h1>Oui bas je teste des truc !</h1>
+    <h4>Et pas des turc...</h4>
+    <img src="photo.jpg">
+    <a href="https://toyboy6.github.io/mes-html/">IA humaine (bientôt "IH" (Inteligence Humaine)</a>
+        <h1>Découverte aléatoire</h1>
+
+    <button onclick="ouvrirSite()">
+        Ouvrir un site au hasard
+    </button>
+
+    <script>
+        const sites = [
+            "https://toyboy6.github.io/Battle-de-drapeau/"
+        ];
+
+        function ouvrirSite() {
+            const hasard = Math.floor(Math.random() * sites.length);
+            window.open(sites[hasard], "_blank");
+        }
+    </script>
+  </body>
+    <script>
+    const message = "Salut"; console.log(message);
+  </script>
+  </html>
